@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Reports - Inventory System</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1>📈 Reports & AI Insights</h1>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="products.html">Products</a>
+      <a href="sales.html">Sales</a>
+      <a href="report.html" class="active">Reports</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- AI Assistant -->
+    <section class="ai-section form-section">
+      <h2>🤖 Financial AI Assistant</h2>
+      <div id="ai-output" class="ai-box">
+        Loading insights...
+      </div>
+    </section>
+
+    <!-- Graph Section -->
+    <section class="list-section graph-section">
+      <h2>📊 Sales  Overview</h2>
+      <div class="chart-container">
+        <canvas id="salesChart"></canvas>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

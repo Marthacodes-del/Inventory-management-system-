@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sales - Inventory System</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1> Sales Management</h1>
+    <nav>
+      <a href="index.html">Dashboard</a>
+      <a href="products.html">Products</a>
+      <a href="sales.html" class="active">Sales</a>
+      <a href="report.html">Reports</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ADD SALE FORM -->
+    <section class="form-section">
+      <h2>Add New Sale</h2>
+      <form id="sale-form">
+        <label>Product Name:
+          <input type="text" id="sale-name" required>
+        </label>
+        <label>Quantity Sold:
+          <input type="number" id="sale-qty" required>
+        </label>
+        <label>Amount Paid:
+          <input type="number" id="sale-paid" required>
+        </label>
+        <label>
+          On Debt?
+          <input type="checkbox" id="sale-debt">
+        </label>
+        <label>Receipt / Proof (optional):
+          <input type="file" id="sale-img" accept="image/*">
+        </label>
+        <button type="submit">Save Sale</button>
+      </form>
+    </section>
+
+    <!-- SEARCH -->
+    <section class="form-section">
+      <input type="text" id="search-sales" placeholder="🔍 Search sales...">
+    </section>
+
+    <!-- SALES LIST -->
+    <section class="list-section">
+      <h2>Sales Records</h2>
+      <div class="table-wrapper">
+        <table id="sales-table">
+          <thead>
+            <tr>
+              <th>Image</th>
+              <th>Product</th>
+              <th>Qty</th>
+              <th>Paid</th>
+              <th>Status</th>
+              <th>Actions</th>
+            </tr>
+          </thead>
+          <tbody id="sales-body"></tbody>
+        </table>
+      </div>
+    </section>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

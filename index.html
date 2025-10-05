@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Dashboard - Inventory System</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <header>
+    <h1> Inventory management system</h1>
+    <nav>
+      <a href="index.html" class="active">Dashboard</a>
+      <a href="products.html">Products</a>
+      <a href="sales.html">Sales</a>
+      <a href="report.html">Reports</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Quick Stats -->
+    <section class="stats">
+      <div class="stat-card">
+        <h2 id="total-products">0</h2>
+        <p>Products in Stock</p>
+      </div>
+      <div class="stat-card">
+        <h2 id="total-sales">$0</h2>
+        <p>Total Sales</p>
+      </div>
+      <div class="stat-card">
+        <h2 id="total-debts">$0</h2>
+        <p>Total Debts</p>
+      </div>
+    </section>
+
+    <!-- Quick Links -->
+    <section class="quick-links">
+      <h2> Quick Access</h2>
+      <div class="link-grid">
+        <a href="products.html" class="link-card">
+          <img src="https://img.icons8.com/fluency/96/box.png" alt="Products">
+          <p>Manage Products</p>
+        </a>
+        <a href="sales.html" class="link-card">
+          <img src="https://img.icons8.com/fluency/96/shopping-cart.png" alt="Sales">
+          <p>Manage Sales</p>
+        </a>
+        <a href="report.html" class="link-card">
+          <img src="https://img.icons8.com/fluency/96/combo-chart.png" alt="Reports">
+          <p>View Reports</p>
+        </a>
+      </div>
+    </section>
+    <footer>
+        <p>created by Marthacodes-del
+        </p>
+    </footer>
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>

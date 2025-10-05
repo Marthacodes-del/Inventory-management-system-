@@ -35,3 +35,16 @@ A full-featured Inventory Management System built with HTML, CSS, and JavaScript
 - Frontend: HTML, CSS, JavaScript  
 - Data Storage: LocalStorage  
 - Charts & Visualization:Chart.js
+### Screenshots
+
+#### Dashboard
+![Dashboard](dashboard.png)
+
+#### Products Page
+![Products](products.png)
+
+#### Sales Page
+![Sales](sales.png)
+
+#### Reports Page
+![Reports](report.png)

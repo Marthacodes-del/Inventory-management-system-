@@ -48,3 +48,6 @@ A full-featured Inventory Management System built with HTML, CSS, and JavaScript
 
 #### Reports Page
 ![Reports](report.png)
+#### Live demo
+-for a live demo click the link below 
+https://marthacodes-del.github.io/Inventory-management-system-/
